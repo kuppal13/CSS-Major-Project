@@ -1,0 +1,117 @@
+
+
+
+.box {
+    margin: 20px 0;
+
+  }
+  body{
+    background-image: url("background2.jpg");
+    background-repeat:no-repeat;
+   background-size:cover;
+ 
+
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    /*background-color: rgb(233, 210, 240);*/
+    padding: 10px 30px;
+    margin: 2em 0;
+    height: 100%;
+  }
+  
+  .col {
+    flex-basis: 30%;
+    box-sizing: border-box;
+    width: 100%;
+    border: 5px solid #761884;
+    height: 100%;
+    padding: 2px;
+  }
+  
+  .col img {
+   
+    width: 100%;
+    
+    object-fit: fill;
+    height: 75%;  
+  }
+  
+  
+  figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 1em;
+    text-align: center;
+
+    height:20%;
+    
+  }
+  /* multiple selector */
+.col, li {
+    font-size: 1.2rem;
+  }
+  
+  /* contextual selector */
+  .box h2 {
+    color: white;
+  }
+  
+  /* contextual selector - child */
+  .box > .row {
+    margin: 20px 0;
+  }
+  
+  /* adjacent sibling */
+  .col + .col {
+    margin-left: 20px;
+
+  }
+  
+  /* descendant Selector */
+  .box h3 {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  /* attribute selector */
+  img[src$=".jpg"] {
+    max-width: 100%;
+  }
+  
+  /* pseudo classes 
+  li:first-child {
+    font-weight: bold;
+    
+  }*/
+  
+
+  
+  /* pseudo-elements */
+  .box::after {
+    content: "";
+    display: block;
+    clear:right;
+  }
+
+  @media (min-width: 700px){
+    h2 {
+        color:white;
+    }
+}
+@media (max-width: 600px){
+  h2 {
+      font-size: 4em;
+  }
+  body {
+      background-color: yellow;
+  }
+
+}
+  
+  

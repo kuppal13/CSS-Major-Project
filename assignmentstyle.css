@@ -1,0 +1,130 @@
+body{
+     
+    background-color: rgb(235, 196, 250);
+    
+    padding: 0px; 
+    margin:1px; 
+}
+
+
+   
+header{
+  
+   
+    position:static;
+    padding:0;
+    display: flex;
+    align-items:center;
+    height:90px;
+     margin:0em;
+     text-decoration: solid;
+      
+}
+@media (orientation: landscape) {
+    header{
+        background-color: #0c0313;
+    }
+   } 
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li {
+
+    display: inline-block;
+     margin-right: 30px;
+    font-size: large; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+ 
+}
+ a {
+    color: hsl(0, 29%, 97%);
+    text-decoration: none;
+}
+
+.log0{
+        width: fit-content;
+}
+
+.mid{
+    
+
+    background-image: url("background1.jpg");
+    height:100%;
+    width:auto;
+   position:static;
+   padding:0 em;
+   background-repeat:no-repeat;
+   background-size:cover;
+ margin-top: 10px;
+    text-align:center;
+   
+    
+    }
+.mid img{
+    margin-top:60px;
+}
+
+#para{
+    
+    text-align: center;
+    text-decoration: solid;
+    padding: 3em;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+ 
+
+}
+
+
+footer{
+    background-color: #0c0313;
+    
+    color: #fbfbfb;
+    display:flex;
+    flex-flow: row wrap;
+    text-align: center;
+
+}
+footer ul
+{
+    padding-left: 80px;
+    list-style:none;
+    text-align: justify;
+}
+
+button {
+    background-color:rgb(103, 12, 103);    
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover {
+    background-color: rgb(247, 188, 247);  
+    color: #0c0313;
+}
+
+a:hover {
+    color: #ff69b4;
+  }
+h1{
+    color: #fbfbfb;
+}
+h3{
+    color: #fbfbfb;
+}
+  
